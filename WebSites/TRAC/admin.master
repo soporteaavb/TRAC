@@ -40,7 +40,8 @@
                         Value="listado cliente"></asp:MenuItem>
                     <asp:MenuItem NavigateUrl="~/reportereserva.aspx" Text="listado reserva" 
                         Value="listado reserva"></asp:MenuItem>
-                    <asp:MenuItem Text="listado vehiculo" Value="listado vehiculo"></asp:MenuItem>
+                    <asp:MenuItem Text="listado vehiculo" Value="listado vehiculo" 
+                        NavigateUrl="~/reportevehiculo.aspx"></asp:MenuItem>
                 </asp:MenuItem>
                 <asp:MenuItem Text="buscar" Value="buscar">
                     <asp:MenuItem NavigateUrl="~/buscarcliente.aspx" Text="cliente" Value="cliente">
