@@ -17,10 +17,11 @@
     
     <p>
     </p>
-    <cc1:PasswordStrength ID="PasswordStrength1" runat="server" />
     <p>
     </p>
     <p>
     </p>
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
 </asp:Content>
 
