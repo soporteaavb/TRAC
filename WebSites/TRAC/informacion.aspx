@@ -19,9 +19,6 @@
        
       
 
-          div
-           {
-                }
     </style>
 
 </asp:Content>
@@ -37,36 +34,36 @@
       <div> 
     
                  <img alt="" class="style3" src="img/Saltos-del-Petrohue-y-Volcán-Osorno.jpg" />
-                <h5></h5> SALTOS RIO PETROHUE<br />
+                 SALTOS RIO PETROHUE<br />
                     Los saltos son los desagues en el rio petrohue de las aguas del lago todos los 
                     santos,los cuales caen entre las rocas de origen volcanico,posee una frondosa 
                     vegetacion que combina maravillosamente con sus aguas color esmeralda<br />
    </div>
                  <img alt="" class="style1" src="img/frutillar.jpg" />
            <div>
-                 <h5>  FRUTILLAR<br />
+                   FRUTILLAR<br />
                     Es una ciudad ubicada en la rivera oeste
                     del lago llanquihue se caracteriza por la belleza de sus paisajes,tradiciones 
                     alemanas y semanas musicales de frutillar<br />
                  <img alt="" class="style4" src="img/volcan%20osorno.jpg" />
     
-    </h5>
+   
            </div>
-                   <h5> VOLCAN OSORNO<br />
+                    VOLCAN OSORNO<br />
                     Es un estratovolcan de 2.652 metros de altitud,con varios centros 
                     eruptivos adventicios que se desarrollo y formo en 4 etapas sucesivas durante 
                     estos ultimos 200 mil años se ubica entre el lago todos los santos y el lago 
                     llanquihue<br />
-                </h5>
+                
               <img alt="" class="style2"  src="img/Puerto_Varas.jpg" />   <br />
         
          
-                <h5> PUERTO VARAS<br />
+                 PUERTO VARAS<br />
                     Tambien llamada la ciudad de las rosas ubicada a la orilla del lago llanquihue 
                     se ha convertido en unas de las ciudades mas atractivas de chile por su 
                     maravillosa geografia de lagos y volcanes<br />
                  
-                    </h5>
+                    
                     
                    
                 
