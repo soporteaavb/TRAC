@@ -51,8 +51,13 @@
       </div>
  <img src="img/frutillar.jpg" alt="hay un texto alternativo cuando la imagen no carga">
   </div>
+  </br>
 
-  
+  <section class="conte-nosotros">
+ <div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VbVC0X1tjkM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+ </div>
+ </section>
 
 
 </section>
