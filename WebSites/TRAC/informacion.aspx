@@ -1,91 +1,65 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/principal.master" AutoEventWireup="true" CodeFile="informacion.aspx.cs" Inherits="informacion" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPageTRAC.master" AutoEventWireup="true" CodeFile="informacion.aspx.cs" Inherits="informacion" %>
 
-<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+<%-- Agregue aquí los controles de contenido --%>
+<asp:Content ID="Content1" runat="server" 
+    contentplaceholderid="ContentPlaceHolder1">
+    <link href="css/css/estilos.css" rel="stylesheet" type="text/css" />
 
-    <style type="text/css">
-         body{ background-color:#A9BCF5; }
-         
-         
-       .style1, .style2,  .style3,.style4  {
-	border: 1px solid white;
-	
-	cursor: pointer;
-	width: 230px;
-     height: 230px;
-      display:inline-block ;     
-       float:left;
-    text-align:center 
-       }
-       
-      
+    <br />
+<head>
+<section class="conte-portafolio">
+<h1>Conoce Sitios turisticos Recomendados</h1>
+<div class="portafolio">
 
-    </style>
+<div class="trabajo">
+      <div class="mascara">
+       <h1>Lago LLanquihue</h1>
+       <p>El lago Llanquihue corresponde al segundo mayor lago de Chile</p>
+      </div>
+<img src="img/lagollanquihue.jpg" alt="hay un texto alternativo cuando la imagen no carga">
+  </div>
 
-</asp:Content>
-
-
-
-
-<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">&nbsp;&nbsp;&nbsp;&nbsp;<br />
-        
-       <strong>&nbsp;INFORMACION TURISTICA</strong><br />
-       <br />
+  <div class="trabajo">
+  <div class="mascara">
+       <h1>Saltos de Petrohue</h1>
+       <p>Los Saltos del Río Petrohué son cascadas ubicadas a una corta distancia río abajo del lago Todos Los Santos.</p>
+      </div><img src="img/Saltos-del-Petrohue-y-Volcán-Osorno.jpg" alt="hay un texto alternativo cuando la imagen no carga">
+      </div>
   
-      <div> 
-    
-                 <img alt="" class="style3" src="img/Saltos-del-Petrohue-y-Volcán-Osorno.jpg" />
-                 SALTOS RIO PETROHUE<br />
-                    Los saltos son los desagues en el rio petrohue de las aguas del lago todos los 
-                    santos,los cuales caen entre las rocas de origen volcanico,posee una frondosa 
-                    vegetacion que combina maravillosamente con sus aguas color esmeralda<br />
-   </div>
-                 <img alt="" class="style1" src="img/frutillar.jpg" />
-           <div>
-                   FRUTILLAR<br />
-                    Es una ciudad ubicada en la rivera oeste
-                    del lago llanquihue se caracteriza por la belleza de sus paisajes,tradiciones 
-                    alemanas y semanas musicales de frutillar<br />
-                 <img alt="" class="style4" src="img/volcan%20osorno.jpg" />
-    
-   
-           </div>
-                    VOLCAN OSORNO<br />
-                    Es un estratovolcan de 2.652 metros de altitud,con varios centros 
-                    eruptivos adventicios que se desarrollo y formo en 4 etapas sucesivas durante 
-                    estos ultimos 200 mil años se ubica entre el lago todos los santos y el lago 
-                    llanquihue<br />
-                
-              <img alt="" class="style2"  src="img/Puerto_Varas.jpg" />   <br />
-        
-         
-                 PUERTO VARAS<br />
-                    Tambien llamada la ciudad de las rosas ubicada a la orilla del lago llanquihue 
-                    se ha convertido en unas de las ciudades mas atractivas de chile por su 
-                    maravillosa geografia de lagos y volcanes<br />
-                 
-                    
-                    
-                   
-                
-                 
-                 
-      
+  
+  <div class="trabajo">
+  <div class="mascara">
+       <h1>Volcan Osorno</h1>
+       <p>El volcán Osorno es un estratovolcán que se encuentra ubicado en la cordillera de los Andes, al borde del lago Llanquihue, en Chile.</p>
+      </div>
+  <img src="img/volcan%20osorno.jpg" alt="hay un texto alternativo cuando la imagen no carga">
+  </div>
+
+  <div class="trabajo extra">
+  <div class="mascara">
+       <h1>Puerto varas</h1>
+       <p>Puerto Varas es una población de la región de Los Lagos (sur de Chile)</p>
+      </div>
+  <img src="img/Puerto_Varas.jpg" alt="hay un texto alternativo cuando la imagen no carga">
+
+  </div>
+
+  <div class="trabajo extra">
+  <div class="mascara">
+       <h1>Frutillar</h1>
+       <p>Frutillar es una ciudad de la región de Los Lagos, en el sur de Chile, con vistas al volcán Osorno.</p>
+      </div>
+ <img src="img/frutillar.jpg" alt="hay un texto alternativo cuando la imagen no carga">
+  </div>
+
   
 
-     <iframe height="315" src="https://www.youtube.com/embed/e8TJ3QlYtOk" 
-             frameborder="0" allow="autoplay; encrypted-media" allowfullscreen 
-             
-             style="text-align: center; float: left; width: 510px; margin-left: 259px; margin-right: 0px;"></iframe>
+
+</section>
+
+</head>
 
 
-         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-
-    
-       
-
-    
-  
 
 </asp:Content>
 
