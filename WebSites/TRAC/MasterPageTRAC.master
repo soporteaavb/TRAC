@@ -79,9 +79,9 @@
     </form>
 
 
-<%--/*pendientes*/--%--%>
+
      <footer>
-  <!--target es para crear una ventana en blanco -->
+
 
 <p><a href="loginadmin.aspx" target="_blank"><i class="fa fa-lock" aria-hidden="true"></i> </a> 
                     <a href="https://es-la.facebook.com/" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>

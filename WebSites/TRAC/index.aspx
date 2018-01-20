@@ -38,7 +38,7 @@
  
 
   <article class="caja">
-<h2>Requisitos Basicos de Arriendo </h2>
+<h2>Requisitos Basicos de Reserva </h2>
 
 <p>Ciudadanos Chilenos
 </p>
@@ -60,7 +60,7 @@ Tarjeta de crédito para la garantía de arriendo por efectos del seguro.
 </P>
 
 <P>    
- tarjetas de débito .
+ Pago reserva tarjetas de débito .
 </P>
 
 <h2>Ciudadanos Extranjeros </h2>

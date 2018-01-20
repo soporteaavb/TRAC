@@ -3,7 +3,10 @@
 <%-- Agregue aquí los controles de contenido --%>
 <asp:Content ID="Content1" runat="server" 
     contentplaceholderid="ContentPlaceHolder1">
-    <link href="css/css/estilos.css" rel="stylesheet" type="text/css" />
+      <link href="css/css/estilos.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css"
+  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri" rel="stylesheet">
+  <link rel="stylesheet" href="css/flexslider.css" type="text/css">
 
     <br />
 <head>
@@ -64,8 +67,9 @@
 
 </head>
 
-
+  
 
 </asp:Content>
+
 
 
